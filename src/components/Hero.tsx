@@ -23,45 +23,46 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Создаём{" "}
-            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              инновационные
+            Ваш бизнес теряет{" "}
+            <span className="bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
+              клиентов
             </span>{" "}
-            цифровые продукты
+            каждый день?
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Превращаем идеи в современные веб-платформы, мобильные приложения и
-            цифровые решения, которые масштабируют ваш бизнес
+            Устаревший сайт, медленные процессы, отсутствие автоматизации — это
+            стоит вам денег. Мы создаём цифровые решения, которые приносят
+            прибыль
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-purple-700 hover:to-blue-700 transition-all duration-300 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105">
-              Обсудить проект
+            <button className="bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-green-700 hover:to-emerald-700 transition-all duration-300 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105">
+              Получить аудит бесплатно
               <Icon name="ArrowRight" size={20} />
             </button>
             <button className="border-2 border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/10 hover:border-white/50 transition-all duration-300 backdrop-blur-sm">
-              Смотреть кейсы
+              Кейсы роста прибыли
             </button>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">50+</div>
-              <div className="text-gray-400 text-sm">Проектов</div>
+              <div className="text-3xl font-bold text-white mb-1">+280%</div>
+              <div className="text-gray-400 text-sm">Рост продаж</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">3+</div>
-              <div className="text-gray-400 text-sm">Года опыта</div>
+              <div className="text-3xl font-bold text-white mb-1">-65%</div>
+              <div className="text-gray-400 text-sm">Время на задачи</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">24/7</div>
-              <div className="text-gray-400 text-sm">Поддержка</div>
+              <div className="text-3xl font-bold text-white mb-1">30 дней</div>
+              <div className="text-gray-400 text-sm">До запуска</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-white mb-1">100%</div>
-              <div className="text-gray-400 text-sm">Качество</div>
+              <div className="text-gray-400 text-sm">Гарантия</div>
             </div>
           </div>
         </div>

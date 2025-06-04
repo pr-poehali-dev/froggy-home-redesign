@@ -4,58 +4,63 @@ import Icon from "@/components/ui/icon";
 const Portfolio = () => {
   const projects = [
     {
-      title: "FinTech платформа",
-      category: "Веб-приложение",
+      title: "Интернет-магазин мебели",
+      category: "E-commerce",
       image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      description:
-        "Комплексная платформа для управления финансами с AI-аналитикой",
-      tech: ["React", "Node.js", "PostgreSQL"],
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop",
+      description: "Увеличили онлайн-продажи в 4 раза за 2 месяца",
+      tech: ["Конверсия +380%", "Время загрузки -70%", "Чек +45%"],
+      metrics: "280% рост продаж за 60 дней",
       link: "#",
     },
     {
-      title: "Мобильный маркетплейс",
-      category: "iOS/Android",
+      title: "Клиника пластической хирургии",
+      category: "Медицина",
       image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      description: "Социальная платформа для торговли с геолокацией",
-      tech: ["React Native", "Firebase", "Stripe"],
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
+      description: "Автоматизировали запись и увеличили поток пациентов",
+      tech: ["Онлайн-запись", "CRM система", "Email-маркетинг"],
+      metrics: "+150% новых клиентов",
       link: "#",
     },
     {
-      title: "EdTech платформа",
-      category: "Веб-приложение",
+      title: "Сеть ресторанов",
+      category: "HoReCa",
       image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop",
-      description: "Интерактивная платформа для онлайн-обучения",
-      tech: ["Next.js", "WebRTC", "MongoDB"],
+        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
+      description: "Система управления заказами и доставкой",
+      tech: ["Мобильное приложение", "Интеграция с POS", "Аналитика"],
+      metrics: "Экономия 40 часов в неделю",
       link: "#",
     },
     {
-      title: "IoT Dashboard",
-      category: "Dashboard",
-      image:
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      description: "Система мониторинга умного дома в реальном времени",
-      tech: ["Vue.js", "Socket.io", "InfluxDB"],
-      link: "#",
-    },
-    {
-      title: "Корпоративный CRM",
-      category: "Enterprise",
+      title: "IT-консалтинг",
+      category: "B2B сервис",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      description: "CRM-система для автоматизации продаж",
-      tech: ["Angular", "Django", "Redis"],
+      description: "Лендинг + CRM для B2B продаж",
+      tech: ["Квиз-воронка", "Интеграция AmoCRM", "Аналитика"],
+      metrics: "Стоимость лида -60%",
       link: "#",
     },
     {
-      title: "Блокчейн кошелёк",
-      category: "Мобильное приложение",
+      title: "Онлайн-школа",
+      category: "EdTech",
       image:
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
-      description: "Безопасный кошелёк для криптовалют",
-      tech: ["Flutter", "Blockchain", "Biometrics"],
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop",
+      description: "Платформа для продажи курсов",
+      tech: ["LMS система", "Платёжи", "Геймификация"],
+      metrics: "+320% продаж курсов",
+      link: "#",
+    },
+    {
+      title: "Производство мебели",
+      category: "Производство",
+      image:
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop",
+      description: "ERP система для управления производством",
+      tech: ["Учёт материалов", "Планирование", "Отчёты"],
+      metrics: "Эффективность +85%",
       link: "#",
     },
   ];
@@ -64,15 +69,15 @@ const Portfolio = () => {
     <section id="portfolio" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium mb-4">
-            Портфолио
+          <span className="inline-block px-4 py-2 bg-green-100 text-green-600 rounded-full text-sm font-medium mb-4">
+            📈 Измеримые результаты
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Успешные проекты
+            Кейсы с цифрами
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Реальные кейсы и решения, которые помогли нашим клиентам достичь
-            бизнес-целей
+            Каждый проект — это конкретный результат для бизнеса. Смотрите, как
+            мы решали задачи, похожие на ваши
           </p>
         </div>
 
@@ -97,6 +102,12 @@ const Portfolio = () => {
               </div>
 
               <div className="p-6">
+                <div className="bg-green-50 border border-green-200 rounded-lg p-3 mb-4">
+                  <span className="text-green-700 font-bold text-sm">
+                    ✅ {project.metrics}
+                  </span>
+                </div>
+
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
                   {project.title}
                 </h3>
@@ -109,7 +120,7 @@ const Portfolio = () => {
                   {project.tech.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full"
+                      className="px-2 py-1 bg-purple-100 text-purple-600 text-xs rounded-full font-medium"
                     >
                       {tech}
                     </span>
@@ -117,7 +128,7 @@ const Portfolio = () => {
                 </div>
 
                 <button className="inline-flex items-center gap-2 text-purple-600 font-semibold hover:text-purple-800 transition-colors group/btn">
-                  Изучить кейс
+                  Подробный кейс
                   <Icon
                     name="ArrowRight"
                     size={16}
@@ -130,9 +141,9 @@ const Portfolio = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-purple-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-purple-700 transition-colors inline-flex items-center gap-2">
-            Смотреть все проекты
-            <Icon name="ExternalLink" size={18} />
+          <button className="bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-full font-semibold hover:from-green-700 hover:to-emerald-700 transition-all duration-300 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105">
+            Хочу такой же результат
+            <Icon name="TrendingUp" size={18} />
           </button>
         </div>
       </div>
